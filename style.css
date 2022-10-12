@@ -4,11 +4,8 @@
 }
 
 .navbar{
-    background-color: black;
-    color: #77f9f3;
-
-    
-
+    background-color: rgba(0, 0, 0, 0.755);
+    color: #77f9f2;
 }
 
 .navbar-toggler{
@@ -31,9 +28,13 @@
     padding-right: 10px;
 }
 
+
+
+
+/*main*/
 .main {
     text-align: center;
-    background-color: rgb(5, 5, 5);
+    background-color:rgb(66, 65, 65);
     height: 100vh;
 }
 
@@ -45,7 +46,7 @@
 .main h1 {
     padding-top: 30%;
     font-family: 'Oswald', sans-serif;
-    color: #77f9f3;
+    color: white;
     padding-right: 50px;
     padding-left: 50px;
     font-size: 70px;
@@ -57,7 +58,7 @@
     font-size: 20px;
     padding-top: 40px;
     font-family: 'Inter Tight', sans-serif;
-    color: whitesmoke;
+    color:white;
     padding-right: 100px;
     padding-left: 100px;
 }
@@ -89,15 +90,15 @@
 
 /*main-sub*/
 .main-sub{
-    background-color: #222324;
+    background-color: #bebebe;
    height: 100vh;
-    color: whitesmoke;
+    color: black;
  
     
 }
 .main-sub h2{
     text-align: center;
-    color:#77f9f3;
+    color:#2e382f;
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Oswald', sans-serif;
@@ -126,24 +127,21 @@
 /*download*/
 .download{
     
-    background-color:#222324;  
-    color: aliceblue;
+    background-color:#e5e5e5;  
+    color: black;
     text-align: center;
 }
 
 .subject-img{
-    height: 300px;
-    width: 300px;
+   
     border-radius: 25%;
 }
-.download a{
-    background-color: #77f9f3;
-}
+
 
 .download h4{
     margin-top: 10px;
     margin-bottom: 10px;
-    color:whitesmoke;
+    color:black;
   
     font-family: 'Oswald', sans-serif;
 
@@ -152,7 +150,7 @@
 .download h1{
     padding-top: 20px;
     margin-bottom: 10px;
-    color:#77f9f3;
+    color:#2e382f;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 
@@ -164,21 +162,26 @@
 }
 .download img{
     margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
 
-}
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    }
+
+
 
 /*download-sub*/
 .download-sub{
-    background-color:#222324;  
-    color: aliceblue;
+    background-color:#e5e5e5cb;  
+    color: black;
     text-align: center; 
 }
 
 
-.subject-img{
-    height: 300px;
-    width: 300px;
-}
+
 .download-sub a{
     background-color: #77f9f3;
 }
@@ -186,7 +189,7 @@
 .download-sub h4{
     margin-top: 10px;
     margin-bottom: 10px;
-    color:whitesmoke;
+    color:black;
     
     font-family: 'Oswald', sans-serif;
 
@@ -195,7 +198,7 @@
 .download-sub h1{
 padding-top: 20px;
     margin-bottom: 40px;
-    color:#77f9f3;
+    color:#2e382f;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 
@@ -205,24 +208,28 @@ padding-top: 20px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.download img{
+.download-sub img{
     margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
 
 }
 
 
 /*download-lab*/
 .download-lab{
-    background-color:#222324;  
-    color: aliceblue;
+    background-color:#e5e5e5e1;  
+    color: black;
     text-align: center; 
 }
 
 
-.subject-img{
-    height: 300px;
-    width: 300px;
-}
+
+
 .download-lab a{
     background-color: #77f9f3;
 }
@@ -230,7 +237,7 @@ padding-top: 20px;
 .download-lab h4{
     margin-top: 10px;
     margin-bottom: 10px;
-    color:whitesmoke;
+    color:black;
     font-family: 'Oswald', sans-serif;
 
 }
@@ -238,7 +245,7 @@ padding-top: 20px;
 .download-lab h1{
 padding-top: 10px;
     margin-bottom: 10px;
-    color:#77f9f3;
+    color:#2e382f;
     font-size: 50px;
     font-family: 'Oswald', sans-serif;
 
@@ -248,15 +255,21 @@ padding-top: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.download img{
+.download-lab img{
     margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
 
 }
 
 /*footer*/
 .footer-content{
-    background-color: black;
-    color:white;
+    background-color: rgba(199, 199, 199, 0.694);
+    color:rgb(0, 0, 0);
     align-items: center;
     text-align: center;
 }
