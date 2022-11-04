@@ -124,6 +124,36 @@
 
 }
 
+/*time-table*/
+#time-table{
+    position: relative;
+    background-color: #e5e5e5;
+ 
+}
+#time-table h2{
+    text-align: center;
+    color:#2e382f;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#img-timetable{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.time-table-img{
+    margin-bottom: 10px;
+    max-width: 80%;
+   -webkit-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.75);
+
+}
+
 /*download*/
 .download{
     
